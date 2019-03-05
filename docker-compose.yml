@@ -7,8 +7,9 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - "./notebooks:/home/jovyan/work" 
+      - "./notebooks:/notebooks"
     environment:
-      NB_UID: 501 # 自分のUID
+      NB_GID: ${GID}
+      NB_UID: ${UID}
       GRANT_SUDO: "yes"
     command: start.sh jupyter lab
