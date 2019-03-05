@@ -37,15 +37,14 @@ NB_UID: 500
 docker-compose.yamlのGID、UIDをいれかえなくても
 
 ```bash
-env GID=20 UID=500 docker-compose up
+> env GID=20 UID=500 docker-compose up -d
 ```
+
 とすればUID、GIDがセットされる。
 
 ## 動作確認
 
-ローカルの8888ポートにアクセスする。
-
-http://localhost:8888
+[ローカルの8888ポートにアクセスする。](http://localhost:8888)
 
 ## [NOTE] パスワードについて
 
