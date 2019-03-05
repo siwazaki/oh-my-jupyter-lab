@@ -46,6 +46,10 @@ docker-compose.yamlのGID、UIDをいれかえなくても
 
 [ローカルの8888ポートにアクセスする。](http://localhost:8888)
 
+## ホームディレクトリ
+
+/notebooks(ローカルの./notebooks)
+
 ## [NOTE] パスワードについて
 
 デフォルトではパスワードなしです。パスワードは`jupyter_notebook_config.py`で設定できます。
