@@ -1,6 +1,6 @@
 # oh-my-notebooks
 
-```oh-my-notebooks = jupyter lab +jupyter/datascience-notebook + tensorflow```
+```oh-my-notebooks = jupyter lab + jupyter/datascience-notebook + tensorflow```
 
 ## 下準備
 
