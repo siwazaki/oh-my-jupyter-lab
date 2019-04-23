@@ -1,5 +1,5 @@
 FROM jupyter/datascience-notebook
-LABEL maintainer="neco-pico"
+LABEL maintainer="s.iwazaki@gmail.com"
 
 # orkディレクトリは今回はいらない
 RUN rm -rf /home/jovyan/work
